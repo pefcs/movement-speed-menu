@@ -1,0 +1,30 @@
+{
+  "id": "movement-speed-menu",
+  "title": "Movement Speed Menu",
+  "description": "Shows D&D 5e movement speeds beside the movement modes in the token HUD.",
+  "version": "0.4.3",
+  "authors": [
+    {
+      "name": "ChatGPT"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14.369",
+    "verified": "14.369",
+    "maximum": "14.999"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.6"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/movement-speed-menu.js"
+  ]
+}
